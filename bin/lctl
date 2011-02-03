@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'lctl'
+rescue LoadError
+  require File.expand_path('../../lib/lctl', __FILE__)
+end
+
+Lctl::CLI.start
