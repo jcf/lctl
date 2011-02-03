@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lctl (0.0.1)
+    lctl (0.0.2)
       thor
 
 GEM
