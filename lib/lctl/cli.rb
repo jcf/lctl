@@ -1,7 +1,7 @@
 require 'thor'
 
 class Lctl::CLI < Thor
-  default_task :start
+  default_task :help
 
   desc 'load NAME', 'Load a launchd process in ~/Library/Launch[Agents|Daemons]'
   def load(name)
